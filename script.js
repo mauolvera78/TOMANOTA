@@ -1,6 +1,26 @@
 /* TOMA NOTA — interactions */
 (function(){
 
+  // ===== Hero video autoplay (PC + mobile) =====
+  const heroVideo = document.querySelector('.hero-video');
+  if(heroVideo){
+    const tryPlay = ()=>{
+      heroVideo.play().catch(()=>{});
+    };
+    // Intento inmediato al cargar
+    document.addEventListener('DOMContentLoaded', tryPlay);
+    // Fallback: primer toque o clic en mobile que bloquea autoplay
+    const onFirstInteraction = ()=>{
+      heroVideo.play().catch(()=>{});
+      document.removeEventListener('touchstart', onFirstInteraction);
+      document.removeEventListener('click', onFirstInteraction);
+    };
+    document.addEventListener('touchstart', onFirstInteraction, {once:true, passive:true});
+    document.addEventListener('click', onFirstInteraction, {once:true});
+    // Intento adicional cuando la página esté completamente cargada
+    window.addEventListener('load', tryPlay);
+  }
+
   // ===== NAV scrolled =====
   const nav = document.getElementById('nav');
   const onScroll = ()=>{
