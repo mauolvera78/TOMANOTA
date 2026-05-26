@@ -1,0 +1,643 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Toma Nota — PreKinder Musical · Cultivando Talentos</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Fredoka:wght@400;500;600;700&family=Lilita+One&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ====== TOP UTILITY BAR ====== -->
+<div class="topbar">
+  <div class="topbar-inner">
+    <a href="tel:+523300000000"><span class="ic">☎</span> +52 33 0000 0000</a>
+    <span class="sep"></span>
+    <a href="mailto:contacto@tomanota.com.mx"><span class="ic">✉</span> contacto@tomanota.com.mx</a>
+    <span class="sep"></span>
+    <span><span class="ic">⌖</span> 14 sucursales en México</span>
+    <span class="grow"></span>
+    <a href="https://www.facebook.com/tomanotagdl/" aria-label="Facebook" class="ic-link"><svg viewBox="0 0 24 24" width="14"><path d="M13 22v-8h3l1-4h-4V7.5C13 6.4 13.4 6 14.5 6H17V2h-3.2C10.8 2 9 3.8 9 6.6V10H6v4h3v8z" fill="currentColor"/></svg></a>
+    <a href="https://www.instagram.com/tomanotagdl/" aria-label="Instagram" class="ic-link"><svg viewBox="0 0 24 24" width="14"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.4" fill="currentColor"/></svg></a>
+  </div>
+</div>
+
+<!-- ====== NAV ====== -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a class="brand" href="#top">
+      <img src="assets/logo.png" alt="Toma Nota" />
+    </a>
+
+    <nav class="nav-links" aria-label="Principal" id="navLinks">
+      <a href="#nosotros" style="--hc:#FFC83A">Nosotros</a>
+      <a href="#metodo"  style="--hc:#2FB475">Método</a>
+      <a href="#salones" style="--hc:#F39424">Salones</a>
+      <a href="#grupos"  style="--hc:#8B3FBF">Grupos</a>
+      <a href="#sucursales" style="--hc:#2BA8D4">Sucursales</a>
+      <a href="#contacto" style="--hc:#E63946">Contacto</a>
+    </nav>
+
+    <a href="#contacto" class="btn btn-yellow nav-cta">
+      ¡Agenda tu visita!
+      <svg viewBox="0 0 24 24" width="16" height="16"><path d="M5 12h13M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+    </a>
+
+    <button class="burger" id="burger" aria-label="Menú">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ====== HERO con VIDEO ====== -->
+<section class="hero" id="top">
+  <video class="hero-video" autoplay muted loop playsinline poster="">
+    <source src="assets/hero.mp4" type="video/mp4">
+  </video>
+  <div class="hero-overlay"></div>
+
+  <!-- Floating playful stickers around -->
+  <div class="hero-stickers" aria-hidden="true">
+    <span class="sticker s-1">♪</span>
+    <span class="sticker s-2">✦</span>
+    <span class="sticker s-3">♫</span>
+    <span class="sticker s-4">●</span>
+    <span class="sticker s-5">✿</span>
+    <span class="sticker s-6">♪</span>
+  </div>
+
+  <div class="hero-content">
+    <span class="hero-tag">
+      <span class="dot" style="background:#FFC83A"></span>
+      <span class="dot" style="background:#F39424"></span>
+      <span class="dot" style="background:#E5388F"></span>
+      <span class="dot" style="background:#8B3FBF"></span>
+      <span class="dot" style="background:#2FB475"></span>
+      PreKinder Musical · 1 a 4 años
+    </span>
+
+    <h1 class="hero-title">
+      <span class="line">Donde la</span>
+      <span class="line">
+        <em class="ink-pink">música</em> despierta
+      </span>
+      <span class="line">el <em class="ink-yellow">talento</em>.</span>
+    </h1>
+
+    <p class="hero-sub">
+      Un espacio único de educación inicial donde la música, las artes y el juego
+      se convierten en el primer lenguaje de tus hijos. Desde 2013.
+    </p>
+
+    <div class="hero-ctas">
+      <a href="#sucursales" class="btn btn-pink btn-big">
+        Encuentra tu sucursal
+        <svg viewBox="0 0 24 24" width="18" height="18"><path d="M5 12h13M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+      </a>
+      <a href="#metodo" class="btn btn-outline btn-big">
+        <span class="play-icon">▶</span>
+        Conoce nuestro método
+      </a>
+    </div>
+
+    <div class="hero-stats">
+      <div class="hs"><strong>+3,200</strong><span>egresados</span></div>
+      <div class="hs"><strong>+32</strong><span>nacionalidades</span></div>
+      <div class="hs"><strong>14</strong><span>sucursales</span></div>
+      <div class="hs"><strong>13</strong><span>años</span></div>
+    </div>
+  </div>
+
+  <!-- Curved divider -->
+  <svg class="hero-wave" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0 40 C 360 80, 720 0, 1080 40 S 1440 80, 1440 80 L1440 80 L0 80 Z" fill="#FFF6E8"/>
+  </svg>
+</section>
+
+<!-- ====== MARQUEE COLORIDO ====== -->
+<div class="marquee">
+  <div class="marquee-track">
+    <span style="color:#F39424">♪ Cantamos</span>
+    <span class="dot-m" style="color:#E5388F">●</span>
+    <span style="color:#2FB475">✦ Jugamos</span>
+    <span class="dot-m" style="color:#FFC83A">●</span>
+    <span style="color:#8B3FBF">♫ Creamos</span>
+    <span class="dot-m" style="color:#2BA8D4">●</span>
+    <span style="color:#E63946">✿ Aprendemos</span>
+    <span class="dot-m" style="color:#F39424">●</span>
+    <span style="color:#2FB475">★ Crecemos</span>
+    <span class="dot-m" style="color:#E5388F">●</span>
+    <span style="color:#F39424">♪ Cantamos</span>
+    <span class="dot-m" style="color:#E5388F">●</span>
+    <span style="color:#2FB475">✦ Jugamos</span>
+    <span class="dot-m" style="color:#FFC83A">●</span>
+    <span style="color:#8B3FBF">♫ Creamos</span>
+    <span class="dot-m" style="color:#2BA8D4">●</span>
+    <span style="color:#E63946">✿ Aprendemos</span>
+    <span class="dot-m" style="color:#F39424">●</span>
+    <span style="color:#2FB475">★ Crecemos</span>
+    <span class="dot-m" style="color:#E5388F">●</span>
+  </div>
+</div>
+
+<!-- ====== NOSOTROS ====== -->
+<section class="section nosotros" id="nosotros">
+  <div class="container nosotros-grid">
+    <div class="nosotros-media">
+      <div class="nm-main">
+        <img src="assets/photos/painted-hands.jpg" alt="Niña con manos pintadas" />
+        <span class="badge-color" style="--c:#E5388F">¡Hola!</span>
+      </div>
+      <div class="nm-small nm-a">
+        <img src="assets/photos/baby.jpg" alt="Bebé jugando" />
+      </div>
+      <div class="nm-small nm-b">
+        <img src="assets/photos/girl-book.jpg" alt="Niña leyendo" />
+      </div>
+      <span class="caveat-tag">¡aquí cantamos!</span>
+      <svg class="orbit" viewBox="0 0 200 200" aria-hidden="true">
+        <defs>
+          <path id="orbitPath" d="M 100 30 A 70 70 0 1 1 100 170 A 70 70 0 1 1 100 30" />
+        </defs>
+        <text font-size="13" fill="#E5388F" font-family="Fredoka" font-weight="700" letter-spacing="2">
+          <textPath href="#orbitPath">♪ CULTIVANDO TALENTOS · CULTIVANDO TALENTOS ·</textPath>
+        </text>
+      </svg>
+    </div>
+
+    <div class="nosotros-copy">
+      <span class="eyebrow"><span class="eyebrow-dot" style="background:#E5388F"></span>Quiénes somos</span>
+      <h2 class="h2">
+        Cada niño es un <em class="ink-orange">universo</em> por descubrir.
+      </h2>
+      <p class="lede">
+        Somos un prekínder con enfoque musical para niñas y niños de 1 a 4 años.
+        Nuestro modelo se basa en la <strong>neuroestimulación integral</strong> a través
+        de la música, las artes y el juego, junto con bases socioemocionales claves
+        durante la primera infancia.
+      </p>
+
+      <div class="values">
+        <span class="v" style="--c:#E5388F">♥ Respeto</span>
+        <span class="v" style="--c:#F39424">★ Amor</span>
+        <span class="v" style="--c:#2FB475">✦ Honestidad</span>
+        <span class="v" style="--c:#8B3FBF">♪ Empatía</span>
+        <span class="v" style="--c:#2BA8D4">● Equipo</span>
+      </div>
+
+      <a href="#metodo" class="link-bold">Conoce nuestro método →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ====== MÉTODO ====== -->
+<section class="section metodo" id="metodo">
+  <!-- decorative blobs -->
+  <span class="blob bl-1"></span>
+  <span class="blob bl-2"></span>
+
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow center"><span class="eyebrow-dot" style="background:#FFC83A"></span>Modelo educativo</span>
+      <h2 class="h2 light center">
+        Cinco pilares y la <em class="ink-yellow">música</em> como eje.
+      </h2>
+      <p class="lede light center">
+        Cada actividad, salón y momento del día está pensado pedagógicamente para acompañar
+        a los niños en su primer encuentro con la vida escolar.
+      </p>
+    </div>
+
+    <div class="metodo-grid">
+      <article class="m-card" style="--c:#F39424">
+        <span class="m-num">01</span>
+        <h3>Atención personalizada</h3>
+        <p>Reporte diario en app digital, citas de seguimiento y evaluaciones semestrales para cada alumno.</p>
+      </article>
+      <article class="m-card" style="--c:#E5388F">
+        <span class="m-num">02</span>
+        <h3>Proceso de adaptación</h3>
+        <p>Somos expertos en el primer acercamiento a la vida escolar. Cercano, transparente, sin ansiedad.</p>
+      </article>
+
+      <article class="m-center">
+        <div class="m-center-inner">
+          <svg viewBox="0 0 100 100" class="m-note"><path d="M40 22h36v8H52v44a16 16 0 1 1-12-15V22z" fill="currentColor"/></svg>
+          <span class="caveat">enfoque</span>
+          <strong>Musical</strong>
+          <span class="m-center-sub">Eje transversal del método</span>
+        </div>
+      </article>
+
+      <article class="m-card" style="--c:#2FB475">
+        <span class="m-num">03</span>
+        <h3>Equilibrio</h3>
+        <p>Entre rutina y sorpresa, ayuda y autonomía, flexibilidad y límites. Una balanza para crecer.</p>
+      </article>
+      <article class="m-card" style="--c:#8B3FBF">
+        <span class="m-num">04</span>
+        <h3>Juego como aprendizaje</h3>
+        <p>Cada juego es una planeación pedagógica que persigue un objetivo de desarrollo claro.</p>
+      </article>
+      <article class="m-card m-card-wide" style="--c:#2BA8D4">
+        <span class="m-num">05</span>
+        <h3>Experiencia multisensorial</h3>
+        <p>Instalaciones, materiales y dinámicas pensadas para activar todos los sentidos. Más sentidos = mayor significado.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ====== SALONES ====== -->
+<section class="section salones" id="salones">
+  <div class="container">
+    <div class="section-head row">
+      <div>
+        <span class="eyebrow"><span class="eyebrow-dot" style="background:#F39424"></span>Salones temáticos</span>
+        <h2 class="h2">
+          Seis mundos para <em class="ink-pink">crear</em>, jugar y soñar.
+        </h2>
+      </div>
+      <p class="lede">
+        Cada salón está diseñado pedagógicamente para una dimensión del desarrollo infantil,
+        siempre con la música como hilo conductor.
+      </p>
+    </div>
+
+    <div class="salones-grid">
+      <article class="salon" style="--c:#F39424">
+        <div class="salon-img"><img src="assets/photos/baby.jpg" alt=""></div>
+        <div class="salon-body">
+          <span class="salon-tag">Salón 01</span>
+          <h3>Música</h3>
+          <p>Desarrollo integral por medio de canciones, ritmos e instrumentos.</p>
+        </div>
+      </article>
+
+      <article class="salon" style="--c:#E5388F">
+        <div class="salon-img"><img src="assets/photos/painted-hands.jpg" alt=""></div>
+        <div class="salon-body">
+          <span class="salon-tag">Salón 02</span>
+          <h3>Arte</h3>
+          <p>Técnicas, materiales y texturas que despiertan creatividad y psicomotricidad.</p>
+        </div>
+      </article>
+
+      <article class="salon" style="--c:#2FB475">
+        <div class="salon-img"><img src="assets/photos/desk-boy.jpg" alt=""></div>
+        <div class="salon-body">
+          <span class="salon-tag">Salón 03</span>
+          <h3>Neuromotor</h3>
+          <p>Coordinación, equilibrio y control del cuerpo a través del movimiento dirigido.</p>
+        </div>
+      </article>
+
+      <article class="salon" style="--c:#2BA8D4">
+        <div class="salon-img"><img src="assets/photos/book-on-head.jpg" alt=""></div>
+        <div class="salon-body">
+          <span class="salon-tag">Salón 04</span>
+          <h3>Cuentos</h3>
+          <p>Lenguaje, lectura e imaginación a través de los libros y la narración oral.</p>
+        </div>
+      </article>
+
+      <article class="salon" style="--c:#8B3FBF">
+        <div class="salon-img"><img src="assets/photos/art-table.jpg" alt=""></div>
+        <div class="salon-body">
+          <span class="salon-tag">Salón 05</span>
+          <h3>Mini Ciudad</h3>
+          <p>Habilidades socioafectivas y juego simbólico en un mundo a su escala.</p>
+        </div>
+      </article>
+
+      <article class="salon" style="--c:#FFC83A">
+        <div class="salon-img"><img src="assets/photos/girl-book.jpg" alt=""></div>
+        <div class="salon-body">
+          <span class="salon-tag">Salón 06</span>
+          <h3>Terraza</h3>
+          <p>Un espacio abierto para correr, explorar y descubrir la naturaleza.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ====== GRUPOS ====== -->
+<section class="section grupos" id="grupos">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow center"><span class="eyebrow-dot" style="background:#2FB475"></span>Grupos por edad</span>
+      <h2 class="h2 center">
+        Tres etapas, <em class="ink-pink">un mismo cariño</em>.
+      </h2>
+    </div>
+
+    <div class="grupos-grid">
+      <article class="grupo" style="--c:#F39424;--c-soft:#FFE9D2">
+        <div class="grupo-photo"><img src="assets/photos/baby.jpg" alt="Babies"></div>
+        <div class="grupo-body">
+          <span class="grupo-num">01</span>
+          <h3>Babies</h3>
+          <span class="age">1 — 2 años</span>
+          <p>Primer contacto con la música, los sentidos y el vínculo con sus pares.</p>
+          <ul>
+            <li>Estimulación sensorial</li>
+            <li>Apego seguro</li>
+            <li>Lenguaje temprano</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="grupo" style="--c:#E5388F;--c-soft:#FCD7E6">
+        <div class="grupo-photo"><img src="assets/photos/painted-hands.jpg" alt="Minis"></div>
+        <div class="grupo-body">
+          <span class="grupo-num">02</span>
+          <h3>Minis</h3>
+          <span class="age">2 — 3 años</span>
+          <p>Exploración guiada, lenguaje, movimiento y autonomía con acompañamiento cercano.</p>
+          <ul>
+            <li>Control de esfínteres</li>
+            <li>Vocabulario amplio</li>
+            <li>Juego paralelo</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="grupo" style="--c:#2FB475;--c-soft:#D2EFE0">
+        <div class="grupo-photo"><img src="assets/photos/desk-boy.jpg" alt="Toddlers"></div>
+        <div class="grupo-body">
+          <span class="grupo-num">03</span>
+          <h3>Toddlers</h3>
+          <span class="age">3 — 4 años</span>
+          <p>Preparación para preescolar con pensamiento creativo, social y emocional.</p>
+          <ul>
+            <li>Pre-escritura</li>
+            <li>Pensamiento simbólico</li>
+            <li>Trabajo en equipo</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ====== PIANO INTERACTIVO ====== -->
+<section class="section piano-sec" id="piano-sec">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow center"><span class="eyebrow-dot" style="background:#F39424"></span>Toca y escucha</span>
+      <h2 class="h2 center">
+        Crea tu propia <em class="ink-pink">melodía</em>.
+      </h2>
+      <p class="lede center">
+        Pasa el cursor o toca cada tecla. Así empiezan nuestros peques: descubriendo
+        que cada sonido es una pequea conexión neuronal en construcción.
+      </p>
+    </div>
+
+    <div class="piano-card">
+      <div class="piano-bar">
+        <span class="piano-pill" style="--c:#E5388F">♪ Toma Nota Studio</span>
+        <div class="piano-controls">
+          <button class="piano-btn" id="pianoDemo">▶ Tocar demo</button>
+          <button class="piano-btn" id="pianoClear">⎟ Limpiar</button>
+        </div>
+      </div>
+      <div class="piano" id="piano" aria-label="Piano interactivo"></div>
+      <div class="piano-hint">Tip: usa el teclado <kbd>A S D F G H J K</kbd> para las teclas blancas y <kbd>W E T Y U</kbd> para las negras.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ====== QUOTE / FRASE ====== -->
+<section class="quote-sec">
+  <span class="quote-emoji" style="--c:#F39424">♪</span>
+  <span class="quote-emoji q-2" style="--c:#E5388F">✦</span>
+  <span class="quote-emoji q-3" style="--c:#2FB475">★</span>
+  <div class="container quote-inner">
+    <span class="big-q">"</span>
+    <blockquote>
+      La música genera mayores conexiones neuronales que cualquier otro
+      estímulo en la primera infancia. Por eso <em class="ink-yellow">la ponemos al centro</em>
+      de todo lo que hacemos.
+    </blockquote>
+    <p class="quote-author">— Equipo pedagógico Toma Nota</p>
+  </div>
+</section>
+
+<!-- ====== SUCURSALES ====== -->
+<section class="section sucursales" id="sucursales">
+  <div class="container">
+    <div class="section-head row">
+      <div>
+        <span class="eyebrow"><span class="eyebrow-dot" style="background:#2BA8D4"></span>Sucursales</span>
+        <h2 class="h2 light">14 sedes. <em class="ink-yellow">Una misma familia.</em></h2>
+      </div>
+      <p class="lede light">
+        De norte a sur, estamos en las principales ciudades de México. Encuentra
+        la sucursal más cercana y agenda tu visita.
+      </p>
+    </div>
+
+    <div class="sucursales-grid">
+      <div class="map-wrap">
+        <iframe
+          class="gmap"
+          src="https://maps.google.com/maps?q=Toma+Nota+prekinder+musical&t=&z=5&ie=UTF8&iwloc=&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          allowfullscreen></iframe>
+      </div>
+
+      <div class="suc-list-wrap">
+        <div class="suc-search">
+          <svg viewBox="0 0 24 24" width="18" height="18"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M16 16l5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <input type="text" id="sucSearch" placeholder="Busca por ciudad…" />
+        </div>
+        <ul class="suc-items" id="sucItems"></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====== TESTIMONIOS ====== -->
+<section class="section testimonios">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow center"><span class="eyebrow-dot" style="background:#E5388F"></span>Familias Toma Nota</span>
+      <h2 class="h2 center">Lo que cuentan los <em class="ink-orange">papás</em>.</h2>
+    </div>
+
+    <div class="t-grid">
+      <figure class="t-card" style="--c:#F39424">
+        <p>"Mi hija entró a los 14 meses sin hablar y al mes cantaba canciones completas. Toma Nota cambió la forma en la que entendemos su desarrollo."</p>
+        <figcaption>
+          <span class="t-avatar" style="background:#F39424">A</span>
+          <div><strong>Ana Sofía R.</strong><span>Mamá de Lucía · Guadalajara</span></div>
+        </figcaption>
+      </figure>
+      <figure class="t-card" style="--c:#E5388F">
+        <p>"El reporte diario y la cercanía de las maestras nos dio paz. Sentimos que conocen a Mateo como nosotros."</p>
+        <figcaption>
+          <span class="t-avatar" style="background:#E5388F">D</span>
+          <div><strong>Diego M.</strong><span>Papá de Mateo · CDMX</span></div>
+        </figcaption>
+      </figure>
+      <figure class="t-card" style="--c:#8B3FBF">
+        <p>"Encontramos un lugar donde cada niño es visto como único. La música atraviesa absolutamente todo lo que hacen."</p>
+        <figcaption>
+          <span class="t-avatar" style="background:#8B3FBF">P</span>
+          <div><strong>Pamela V.</strong><span>Mamá de Camilo · Monterrey</span></div>
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ====== CONTACTO ====== -->
+<section class="section contacto" id="contacto">
+  <div class="container contacto-grid">
+    <div class="contacto-left">
+      <span class="eyebrow"><span class="eyebrow-dot" style="background:#FFC83A"></span>Contacto</span>
+      <h2 class="h2">
+        ¿Listos para empezar a <em class="ink-pink">cantar</em>?
+      </h2>
+      <p class="lede">
+        Agenda una visita guiada en la sucursal más cercana. Te recibimos con
+        un café, un abrazo y mucha música.
+      </p>
+      <ul class="contact-list">
+        <li>
+          <span class="ci" style="background:#FFE9D2;color:#F39424">✉</span>
+          <div><strong>CORREO</strong><a href="mailto:contacto@tomanota.com.mx">contacto@tomanota.com.mx</a></div>
+        </li>
+        <li>
+          <span class="ci" style="background:#FCD7E6;color:#E5388F">☎</span>
+          <div><strong>TELÉFONO</strong><a href="tel:+523300000000">+52 33 0000 0000</a></div>
+        </li>
+        <li>
+          <span class="ci" style="background:#D2EFE0;color:#2FB475">◐</span>
+          <div><strong>HORARIO</strong><span>Lunes a viernes · 8:00 – 14:00</span></div>
+        </li>
+      </ul>
+    </div>
+
+    <form class="form" id="form" onsubmit="event.preventDefault(); this.querySelector('.form-ok').classList.add('show'); this.reset();">
+      <h3 class="form-title">¡Hola! 👋</h3>
+      <p class="form-sub">Déjanos tus datos y te contactamos en menos de 24h.</p>
+      <label>
+        <span>Nombre completo</span>
+        <input type="text" placeholder="Tu nombre" required>
+      </label>
+      <div class="row">
+        <label>
+          <span>WhatsApp</span>
+          <input type="tel" placeholder="+52 33 0000 0000" required>
+        </label>
+        <label>
+          <span>Edad de tu peque</span>
+          <select required>
+            <option value="">Selecciona…</option>
+            <option>Menos de 1 año</option>
+            <option>1 a 2 años — Babies</option>
+            <option>2 a 3 años — Minis</option>
+            <option>3 a 4 años — Toddlers</option>
+          </select>
+        </label>
+      </div>
+      <label>
+        <span>Sucursal de interés</span>
+        <select required>
+          <option value="">Selecciona una sucursal…</option>
+          <option>Guadalajara — Providencia</option>
+          <option>Guadalajara — Andares</option>
+          <option>CDMX — Polanco</option>
+          <option>CDMX — Lomas</option>
+          <option>Monterrey — Valle</option>
+          <option>Querétaro</option>
+          <option>León</option>
+          <option>Puebla — Angelópolis</option>
+          <option>Mérida</option>
+          <option>Cancún</option>
+          <option>Veracruz</option>
+          <option>Aguascalientes</option>
+          <option>San Luis Potosí</option>
+          <option>Tijuana (próxima apertura)</option>
+        </select>
+      </label>
+      <button type="submit" class="btn btn-pink btn-big w-full">
+        ¡Agendar mi visita!
+        <svg viewBox="0 0 24 24" width="18" height="18"><path d="M5 12h13M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+      </button>
+      <p class="form-ok">¡Gracias! Te contactamos en menos de 24 horas.</p>
+    </form>
+  </div>
+</section>
+
+<!-- ====== FOOTER ====== -->
+<footer class="footer">
+  <div class="footer-top">
+    <div class="container footer-top-inner">
+      <div class="footer-cta">
+        <h3>¿Quieres conocernos? <em>Te invitamos un café.</em></h3>
+        <p>Agenda una visita guiada en la sucursal más cercana y vive un día Toma Nota.</p>
+      </div>
+      <a href="#contacto" class="btn btn-pink btn-big">
+        Agendar visita
+        <svg viewBox="0 0 24 24" width="18" height="18"><path d="M5 12h13M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+      </a>
+    </div>
+  </div>
+
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a class="brand-foot" href="#top">
+        <img src="assets/logo.png" alt="Toma Nota" />
+      </a>
+      <p>Cultivando talentos desde 2013. PreKinder con enfoque musical para niños de 1 a 4 años.</p>
+      <div class="social">
+        <a href="https://www.facebook.com/tomanotagdl/" aria-label="Facebook"><svg viewBox="0 0 24 24" width="18"><path d="M13 22v-8h3l1-4h-4V7.5C13 6.4 13.4 6 14.5 6H17V2h-3.2C10.8 2 9 3.8 9 6.6V10H6v4h3v8z" fill="currentColor"/></svg></a>
+        <a href="https://www.instagram.com/tomanotagdl/" aria-label="Instagram"><svg viewBox="0 0 24 24" width="18"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.4" fill="currentColor"/></svg></a>
+        <a href="#" aria-label="WhatsApp"><svg viewBox="0 0 24 24" width="18"><path d="M20 12a8 8 0 0 1-12 7l-4 1 1-4a8 8 0 1 1 15-4z" fill="none" stroke="currentColor" stroke-width="2"/></svg></a>
+      </div>
+    </div>
+    <div>
+      <h4>Navega</h4>
+      <a href="#nosotros">Quiénes somos</a>
+      <a href="#metodo">Modelo educativo</a>
+      <a href="#salones">Salones</a>
+      <a href="#grupos">Grupos por edad</a>
+      <a href="#sucursales">Sucursales</a>
+    </div>
+    <div>
+      <h4>Contacto</h4>
+      <a href="mailto:contacto@tomanota.com.mx">contacto@tomanota.com.mx</a>
+      <a href="tel:+523300000000">+52 33 0000 0000</a>
+      <a href="#">Bolsa de trabajo</a>
+      <a href="#">Aviso de privacidad</a>
+    </div>
+    <div>
+      <h4>Suscríbete</h4>
+      <p class="small">Recibe consejos de crianza musical y novedades.</p>
+      <form class="newsletter" onsubmit="event.preventDefault(); alert('¡Gracias por suscribirte!')">
+        <input type="email" placeholder="Tu correo" required>
+        <button>→</button>
+      </form>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© 2026 Toma Nota — Cultivando Talentos</span>
+    <span>Hecho con ♪ y mucho amor</span>
+  </div>
+</footer>
+
+<a href="https://wa.me/523300000000" class="fab" aria-label="WhatsApp">
+  <svg viewBox="0 0 32 32" width="26"><path d="M16 4a12 12 0 0 0-10 18.6L4 28l5.6-2A12 12 0 1 0 16 4zm6.7 17a3 3 0 0 1-2 1.4c-.6.1-1.2.2-3.8-.8a13 13 0 0 1-5.4-4.8 6 6 0 0 1-1.3-3.2 3.5 3.5 0 0 1 1.1-2.6.9.9 0 0 1 .7-.3h.5c.2 0 .4 0 .6.5l.9 2c.1.2.1.4 0 .6l-.4.5-.4.4c-.1.1-.2.2-.1.5a8 8 0 0 0 1.4 1.7 7 7 0 0 0 2.1 1.3c.3.1.4.1.5 0l.7-.9c.2-.2.3-.2.5-.1l1.8.8c.2.1.4.2.4.3z" fill="#fff"/></svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
